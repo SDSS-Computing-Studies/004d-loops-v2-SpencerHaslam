@@ -21,4 +21,4 @@ number = int(input("Enter a number"))
 mnumber = int(number * 12)
 numbs = range(1,13)
 for x in numbs:
-    print(x * number)
+    print(x * number, end = " ")
