@@ -29,4 +29,4 @@ for x in nameList:
         print("That name is on the list")
         break
 if x != name:
-    print("That name is not in the list")
+    print("That name is not on the list")
