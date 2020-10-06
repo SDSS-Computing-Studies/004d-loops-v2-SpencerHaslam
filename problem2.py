@@ -32,6 +32,6 @@ nums = range(1, number)
 tnum = 1
 for x in nums:
     tnum = tnum * x
-number = str(number)
+number = str(number - 1)
 tnum = str (tnum)
 print(number + "!" + " is " + tnum)
