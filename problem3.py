@@ -1,5 +1,4 @@
 #! python3
-
 """
 ##### Problem 3
 Have the user enter an integer that is smaller than 10
