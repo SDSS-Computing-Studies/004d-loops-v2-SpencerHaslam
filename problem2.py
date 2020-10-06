@@ -26,3 +26,12 @@ example:
 Enter a number: 4
 4! is 24
 """
+number = int(input("Enter a number"))
+number = number + 1
+nums = range(1, number)
+tnum = 1
+for x in nums:
+    tnum = tnum * x
+number = str(number)
+tnum = str (tnum)
+print(number + "!" + " is " + tnum)
